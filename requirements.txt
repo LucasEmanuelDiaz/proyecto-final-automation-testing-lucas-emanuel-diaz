@@ -1,0 +1,7 @@
+pytest
+selenium
+pytest-html
+requests
+webdriver-manager
+pandas
+python-dateutil
