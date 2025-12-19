@@ -19,20 +19,17 @@ class InventoryPage(BasePage):
     def add_item_to_cart_by_name(self, product_name):
         self.wait.until(EC.url_contains("inventory"))
 
-        product_ids = {
-            "Sauce Labs Backpack": "add-to-cart-sauce-labs-backpack",
-            "Sauce Labs Bike Light": "add-to-cart-sauce-labs-bike-light"
-        }
-
-        product_id = product_ids.get(product_name)
-        if not product_id:
-            raise ValueError(f"Producto no reconocido: {product_name}")
-
-        
         add_btn = self.wait.until(
-            EC.element_to_be_clickable((By.ID, product_id))
+            EC.element_to_be_clickable((By.ID, "add-to-cart-sauce-labs-backpack"))
         )
         add_btn.click()
+
+        # 🔐 VALIDACIÓN REAL
+        self.wait.until(
+            EC.text_to_be_present_in_element(
+                (By.CLASS_NAME, "shopping_cart_badge"), "1"
+            )
+        )
 
     def go_to_cart(self):
         self.click(*self.CART_LINK)

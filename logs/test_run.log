@@ -318,3 +318,20 @@
 2025-12-19 03:56:21,975 - INFO - src.utils.logger - Quitting browser
 2025-12-19 03:56:26,757 - INFO - src.utils.logger - Browser started
 2025-12-19 03:56:27,537 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:03:40,299 - INFO - src.utils.logger - Browser started
+2025-12-19 04:03:57,373 - ERROR - src.utils.logger - Screenshot saved to C:\Users\Naza\Documents\proyecto-final-automation-testing-lucas-emanuel-diaz\screenshots\test_add_to_cart_and_checkout_20251219_040357.png
+2025-12-19 04:03:57,374 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:02,246 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:03,068 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:07,785 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:08,517 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:13,268 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:13,911 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:18,761 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:19,438 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:24,126 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:24,749 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:29,649 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:30,408 - INFO - src.utils.logger - Quitting browser
+2025-12-19 04:04:35,282 - INFO - src.utils.logger - Browser started
+2025-12-19 04:04:36,340 - INFO - src.utils.logger - Quitting browser
