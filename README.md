@@ -1,4 +1,4 @@
-El propósito de este proyecto es combinar pruebas de interfaz web (ui) utilizando Selenium WebDrive con Servicios Rest mediante una libreria Request ejecutandose bajo el framework Pytest. Los entornos utilizados para dicho proyecto son SauceDemo y ReqRes. 
+El propósito de este proyecto es combinar pruebas de interfaz web (ui) utilizando Selenium WebDrive con Servicios Rest mediante una libreria Request ejecutandose bajo el framework Pytest. Los entornos utilizados para dicho proyecto son SauceDemo y DummyJSON. 
 
 ***El objetivo principal es proporcionar un entorno completo para:***
 
@@ -13,7 +13,7 @@ El propósito de este proyecto es combinar pruebas de interfaz web (ui) utilizan
 * **Python 3.14.0** – Lenguaje principal.
 * **Pytest** – Framework para la ejecución de pruebas.
 * **Selenium WebDriver** – Automatización de interfaces web.
-* **Requests** – Cliente HTTP para pruebas de API.
+* **Requests** – Cliente HTTP para pruebas de API (DummyJSON).
 
 ***Estructura del Proyecto***
 
