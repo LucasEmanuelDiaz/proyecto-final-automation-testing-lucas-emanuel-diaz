@@ -1,5 +1,8 @@
 from selenium.webdriver.common.by import By
 from src.pages.base_page import BasePage
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 class InventoryPage(BasePage):
     TITLE = (By.CLASS_NAME, 'title')
@@ -14,6 +17,9 @@ class InventoryPage(BasePage):
         return [e.text for e in elems]
 
     def add_item_to_cart_by_name(self, name):
+        WebDriverWait(self.driver, 15).until(
+        EC.url_contains("inventory")
+        )
         xpath = f"//div[@class='inventory_item']//div[@class='inventory_item_name' and text()='{name}']/ancestor::div[@class='inventory_item']//button"
         self.click(By.XPATH, xpath)
 

@@ -32,3 +32,37 @@
 2025-12-10 14:58:16,025 - INFO - src.utils.logger - Quitting browser
 2025-12-10 14:58:20,774 - INFO - src.utils.logger - Browser started
 2025-12-10 14:58:21,599 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:10:40,966 - INFO - src.utils.logger - Browser started
+2025-12-19 02:10:53,458 - ERROR - src.utils.logger - Screenshot saved to C:\Users\Naza\Documents\proyecto-final-automation-testing-lucas-emanuel-diaz\screenshots\test_add_to_cart_and_checkout_20251219_021053.png
+2025-12-19 02:10:53,459 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:10:58,640 - INFO - src.utils.logger - Browser started
+2025-12-19 02:10:59,557 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:04,695 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:05,849 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:10,812 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:11,535 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:16,312 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:17,012 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:21,873 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:22,579 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:27,373 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:28,172 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:11:32,954 - INFO - src.utils.logger - Browser started
+2025-12-19 02:11:34,112 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:48:30,368 - INFO - src.utils.logger - Browser started
+2025-12-19 02:48:42,994 - ERROR - src.utils.logger - Screenshot saved to C:\Users\Naza\Documents\proyecto-final-automation-testing-lucas-emanuel-diaz\screenshots\test_add_to_cart_and_checkout_20251219_024842.png
+2025-12-19 02:48:42,996 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:48:50,083 - INFO - src.utils.logger - Browser started
+2025-12-19 02:48:52,516 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:48:57,291 - INFO - src.utils.logger - Browser started
+2025-12-19 02:48:58,101 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:49:02,857 - INFO - src.utils.logger - Browser started
+2025-12-19 02:49:03,563 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:49:08,324 - INFO - src.utils.logger - Browser started
+2025-12-19 02:49:09,145 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:49:13,875 - INFO - src.utils.logger - Browser started
+2025-12-19 02:49:14,581 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:49:19,323 - INFO - src.utils.logger - Browser started
+2025-12-19 02:49:20,575 - INFO - src.utils.logger - Quitting browser
+2025-12-19 02:49:25,373 - INFO - src.utils.logger - Browser started
+2025-12-19 02:49:26,197 - INFO - src.utils.logger - Quitting browser
