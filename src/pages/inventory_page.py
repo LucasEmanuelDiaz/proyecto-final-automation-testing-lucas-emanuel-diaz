@@ -16,12 +16,23 @@ class InventoryPage(BasePage):
         elems = self.find_all(*self.ITEM_NAMES)
         return [e.text for e in elems]
 
-    def add_item_to_cart_by_name(self, name):
-        WebDriverWait(self.driver, 15).until(
-        EC.url_contains("inventory")
+    def add_item_to_cart_by_name(self, product_name):
+        self.wait.until(EC.url_contains("inventory"))
+
+        product_ids = {
+            "Sauce Labs Backpack": "add-to-cart-sauce-labs-backpack",
+            "Sauce Labs Bike Light": "add-to-cart-sauce-labs-bike-light"
+        }
+
+        product_id = product_ids.get(product_name)
+        if not product_id:
+            raise ValueError(f"Producto no reconocido: {product_name}")
+
+        
+        add_btn = self.wait.until(
+            EC.element_to_be_clickable((By.ID, product_id))
         )
-        xpath = f"//div[@class='inventory_item']//div[@class='inventory_item_name' and text()='{name}']/ancestor::div[@class='inventory_item']//button"
-        self.click(By.XPATH, xpath)
+        add_btn.click()
 
     def go_to_cart(self):
         self.click(*self.CART_LINK)
