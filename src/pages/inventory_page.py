@@ -24,7 +24,6 @@ class InventoryPage(BasePage):
         )
         add_btn.click()
 
-        # 🔐 VALIDACIÓN REAL
         self.wait.until(
             EC.text_to_be_present_in_element(
                 (By.CLASS_NAME, "shopping_cart_badge"), "1"

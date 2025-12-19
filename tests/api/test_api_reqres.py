@@ -10,7 +10,6 @@ HEADERS = {
 def test_get_users_list():
     r = requests.get(f"{BASE}/users?limit=10", headers=HEADERS)
 
-    # ✅ GET → 200
     assert r.status_code == 200
 
     data = r.json()
@@ -32,7 +31,6 @@ def test_post_create_user():
         headers=HEADERS
     )
 
-    # ✅ POST → 201
     assert r.status_code == 201
 
     data = r.json()
@@ -43,7 +41,6 @@ def test_post_create_user():
 def test_delete_user():
     r = requests.delete(f"{BASE}/users/1", headers=HEADERS)
 
-    # ✅ DELETE → 200
     assert r.status_code == 200
 
     data = r.json()
